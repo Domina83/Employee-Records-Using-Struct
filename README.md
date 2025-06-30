@@ -1,16 +1,27 @@
-# Employee Records Using Structure in C
+# 📋 Employee Records Using Structure in C
 
-This C program uses a `struct` to store and display details of multiple employees such as name, employee number, department, and salary.
+This C program demonstrates how to manage employee records using `struct`. It stores and displays each employee's name, employee number, department, and salary.
+
+---
 
 ## 💻 Language
 
 C
 
-## 📋 Description
+---
+
+## 🧠 Description
+
 - Defines an `Employee` structure
-- Takes input for name, employee number, department, and salary
-- Stores information for multiple employees
-- Displays all employee data using formatted output
+- Takes input for:
+  - Name
+  - Employee number
+  - Department
+  - Salary
+- Stores data for multiple employees
+- Outputs all employee details in a clean, formatted manner
+
+---
 
 ## 🧪 Sample Output
 
@@ -26,7 +37,6 @@ Department Name: HR
 
 Salary: 35000
 
-
 Employee 2:
 
 Name: Ravi
@@ -36,7 +46,6 @@ Employee Number: 102
 Department Name: IT
 
 Salary: 50000
-
 
 Employee 3:
 
@@ -58,7 +67,6 @@ Department : HR
 
 Salary : 35000
 
-
 Name : Ravi
 
 Emp No : 102
@@ -66,7 +74,6 @@ Emp No : 102
 Department : IT
 
 Salary : 50000
-
 
 Name : Mira
 
@@ -76,15 +83,19 @@ Department : Sales
 
 Salary : 45000
 
+---
+
 ## 🛠️ How to Run
+
 ```bash
 gcc employee_struct.c -o employee
 ./employee
 
 🌱 What I Learned
-
 Declaring and using structures in C
 
-Storing multiple records using arrays of structs
+Creating arrays of structs for multiple records
 
-Accepting and displaying structured user input
+Accepting structured user input using scanf
+
+Displaying formatted output for each record
