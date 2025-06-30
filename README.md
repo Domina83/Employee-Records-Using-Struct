@@ -92,6 +92,7 @@ gcc employee_struct.c -o employee
 ./employee
 
 🌱 What I Learned
+
 Declaring and using structures in C
 
 Creating arrays of structs for multiple records
@@ -99,3 +100,9 @@ Creating arrays of structs for multiple records
 Accepting structured user input using scanf
 
 Displaying formatted output for each record
+
+🕰️ Version Notes
+
+Original version: Created 4 years ago during my early learning phase
+
+Updated version: Refined formatting and output style to match current standards
